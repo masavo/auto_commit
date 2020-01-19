@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# (C) msnrhrk
+# MIT license
+
+# $0 = 'auto_commitr
+
+require 'auto_commit'
+
+# Process command line options and run AutoCommit
+# opts = AutoCommit::CLI.parse_options
+AutoCommit::CLI.execute(nil)
